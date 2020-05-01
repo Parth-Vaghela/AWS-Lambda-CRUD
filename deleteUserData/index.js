@@ -23,7 +23,6 @@ exports.handler = async function (event, context) {
     }catch(err) {
       responseBody = `Unable to put product: ${err}`
       statusCode  = 403;
-      
     }
 
     const response = {
